@@ -1,0 +1,33 @@
+# Ignorar diretórios e arquivos relacionados a dados
+data/raw/
+data/processed/
+
+# Ignorar arquivos de dados brutos
+*.csv
+
+# Ignorar arquivos de modelos treinados
+*.pkl
+
+# Ignorar arquivos de cache e intermediários
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de notebooks temporários
+.ipynb_checkpoints/
+
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar arquivos de configuração local
+*.config
+
+# Ignorar logs
+*.log
+
+# Ignorar arquivos de build
+build/
+dist/
+
+# Ignorar arquivos de instalação de pacotes
+*.egg-info/
+.eggs/
