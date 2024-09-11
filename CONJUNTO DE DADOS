@@ -1,0 +1,33 @@
+Conjunto de Dados
+Descrição
+O conjunto de dados utilizado neste projeto contém artigos e publicações sobre ética em Inteligência Artificial (IA). Estes dados são essenciais para a análise das tendências, tópicos discutidos e a percepção geral sobre ética em IA. O conjunto de dados inclui informações sobre a data de publicação, título do artigo, resumo, e o texto completo dos artigos.
+
+Estrutura dos Dados
+O conjunto de dados está estruturado em arquivos CSV, com as seguintes colunas principais:
+
+ID: Identificador único para cada artigo.
+Data_Publicacao: Data em que o artigo foi publicado.
+Titulo: Título do artigo.
+Resumo: Resumo do artigo.
+Texto: Texto completo do artigo.
+Exemplos de Dados
+Aqui está um exemplo de como os dados podem ser estruturados:
+
+ID	Data_Publicacao	Titulo	Resumo	Texto
+1	2023-01-15	A Ética da IA: Desafios e Oportunidades	Este artigo explora os desafios éticos da IA.	[Texto completo do artigo...]
+2	2023-02-10	Privacidade e IA: Uma Análise Crítica	Discussão sobre privacidade em IA.	[Texto completo do artigo...]
+...	...	...	...	...
+Localização dos Arquivos
+Os arquivos de dados estão localizados no diretório data/raw/ e data/processed/.
+
+data/raw/: Contém os arquivos de dados brutos originais, como ethics_data.csv.
+data/processed/: Contém os arquivos de dados limpos e processados, como cleaned_data.csv.
+Como Utilizar os Dados
+Carregar Dados Brutos: Use o script de pré-processamento para carregar e limpar os dados brutos. O script data_preprocessing.py lê os dados do diretório data/raw/ e os prepara para análise.
+
+Analisar Dados: Após o pré-processamento, os dados limpos estarão disponíveis no diretório data/processed/. Utilize os notebooks e scripts para realizar análises exploratórias, identificar tendências, tópicos principais e realizar análise de sentimento.
+
+Considerações Adicionais
+Privacidade e Ética: Certifique-se de lidar com os dados de forma ética e respeitar quaisquer restrições de privacidade ou direitos autorais associados aos artigos.
+
+Atualização dos Dados: O conjunto de dados pode ser atualizado periodicamente com novos artigos e publicações. Ajuste os scripts de pré-processamento conforme necessário para acomodar alterações no formato dos dados.
