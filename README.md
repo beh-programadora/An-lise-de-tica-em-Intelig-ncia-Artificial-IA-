@@ -1,7 +1,4 @@
-
-Aqui está um exemplo de README.md para o projeto de análise de ética em Inteligência Artificial (IA):
-
-Análise de Ética em Inteligência Artificial (IA)
+## Análise de Ética em Inteligência Artificial (IA)
 Descrição do Projeto
 Este projeto tem como objetivo realizar uma análise abrangente sobre ética em Inteligência Artificial (IA). A análise envolve a exploração de dados sobre temas éticos relacionados à IA para identificar tendências, tópicos principais e a percepção geral através da análise de sentimento. O projeto utiliza técnicas de análise de dados, processamento de linguagem natural e visualização para extrair insights significativos.
 
