@@ -1,0 +1,22 @@
+ethics_in_ai/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── src/
+│   ├── data_preprocessing.py
+│   ├── eda.py
+│   ├── trend_analysis.py
+│   ├── topic_analysis.py
+│   ├── sentiment_analysis.py
+│   └── visualization.py
+├── data/
+│   ├── raw/
+│   │   └── ethics_data.csv
+│   └── processed/
+│       └── cleaned_data.csv
+└── notebooks/
+    ├── EDA.ipynb
+    ├── Trend_Analysis.ipynb
+    ├── Topic_Analysis.ipynb
+    └── Sentiment_Analysis.ipynb
