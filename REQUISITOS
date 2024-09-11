@@ -1,0 +1,30 @@
+# Dependências principais para análise de dados e visualização
+pandas==2.0.1
+numpy==1.25.0
+matplotlib==3.8.0
+seaborn==0.12.2
+
+# Dependências para modelagem e processamento de linguagem natural
+scikit-learn==1.3.1
+nltk==3.8.1
+textblob==0.17.1
+
+# Dependências para processamento de texto e análise de sentimento
+textblob==0.17.1
+
+# Dependências para notebooks e visualização
+jupyterlab==3.6.3
+notebook==7.8.0
+
+# Outras dependências úteis
+requests==2.31.0
+
+Como Usar
+1. Crie o Arquivo requirements.txt: Salve o conteúdo acima em um arquivo chamado requirements.txt na raiz do seu projeto.
+
+2. Instale as Dependências: Execute o comando abaixo para instalar todas as dependências listadas no requirements.txt:
+pip install -r requirements.txt
+
+Notas
+Versões: As versões especificadas são exemplos e você pode ajustá-las de acordo com suas necessidades ou com as versões mais recentes disponíveis.
+Outras Dependências: Se você precisar de outras bibliotecas específicas para seu projeto, adicione-as ao requirements.txt.
